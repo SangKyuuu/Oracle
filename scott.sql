@@ -21,8 +21,21 @@ SELECT EMPNO,ENAME FROM EMP WHERE EMPNO=7900;
 SELECT ENAME,SAL FROM EMP WHERE SAL < 900;
 SELECT EMPNO,ENAME,SAL FROM EMP WHERE ENAME = 'SMITH';
 
+SELECT deptno, NULL job, ROUND(AVG(sal),1) avg_sal, COUNT(*) cnt_emp
+FROM emp
+GROUP BY deptno
+UNION ALL
+SELECT deptno,  job, ROUND(AVG(sal),1) avg_sal, COUNT(*) cnt_emp
+FROM emp
+GROUP BY deptno, job
+UNION ALL
+SELECT NULL deptno, null job, ROUND(AVG(sal),1) avg_sal, COUNT(*) cnt_emp
+FROM emp
+ORDER BY deptno, job;
 
-
+SELECT deptno,  job, ROUND(AVG(sal),1) avg_sal, COUNT(*) cnt_emp
+FROM emp
+GROUP BY ROLLUP (deptno, job);
 
 
 
