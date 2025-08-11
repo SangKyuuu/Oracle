@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD9747A5-852A-6792-BAE4-A0A74066B45B" name="User">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:14:09 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="userId" id="8CF95722-FC92-7DC1-72FC-D7EED6F52485">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:17:59 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="DD6128B7-475A-5139-B5B3-CC1731D2EE05">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:17:59 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth" id="3DF52243-06FA-B63B-57FA-4DBACE2E59CE">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:17:59 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="5B6167BF-8F7D-3FE1-93F1-DACBC484BCAF">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:17:59 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hp" id="2DDF4CEE-E4C3-7A54-2093-3A3C6CAA8B49">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:17:59 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="E6E8CD2B-A341-8580-B4FD-376D3BC47242">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:17:59 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="point" id="54E15363-706E-00D2-D01D-C00AE3804808">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:17:59 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="level" id="240231EC-D8B5-FFC6-9F01-AE3CDC456E3F">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:17:59 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="EB29549D-D3CA-C8EB-7F59-171ED747781F">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:17:59 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="regDate" id="404D121A-BDC4-06B5-5AD1-061ECB580EB0">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:17:59 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7FC66CC-FCF8-51A1-FF33-F2B68F5BCC1A" name="User_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:17:59 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CF95722-FC92-7DC1-72FC-D7EED6F52485"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A33FBEB-0EA1-A033-71CE-96874A8BE4FD" name="User__UN">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:20:44 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DDF4CEE-E4C3-7A54-2093-3A3C6CAA8B49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A38BBED-2724-8D2E-DC88-A974AFE8AF6E" name="User__UNv1">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:20:44 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6E8CD2B-A341-8580-B4FD-376D3BC47242"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

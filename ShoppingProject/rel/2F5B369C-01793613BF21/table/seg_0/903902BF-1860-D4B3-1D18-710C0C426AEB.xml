@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="903902BF-1860-D4B3-1D18-710C0C426AEB" name="OrdersItem">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:14:22 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="itemNo" id="C84947CB-50C1-80B6-443D-DE3B1F923071">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 07:13:34 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="orderNo" id="F0BF5F03-B030-2B5B-9B53-A21DE3FABE5D">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 07:26:32 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6BFD52D1-1348-1BE2-FB29-42F3224EE9AC" referredColumn="E14230A7-CFBA-0DFE-4974-38FD596071F4"/>
+</associations>
+</Column>
+<Column name="prodNo" id="7BAF32ED-B3A3-5E94-11D5-916EF3299BB2">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 07:27:05 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="380FCB17-5413-5BF6-3391-9D761F5F524C" referredColumn="5FCE1ADF-B1B8-C523-C7E5-C66C79A63788"/>
+</associations>
+</Column>
+<Column name="itemPrice" id="991910D7-C622-CE1E-C7BC-D173F5AC6578">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 07:13:34 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="itemDiscount" id="C4096463-163E-A043-A32E-171A02E071E3">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 07:13:34 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="itemCount" id="BD610551-155A-DB0F-0A8C-01A316BD1273">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 07:13:34 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="744C5530-0B5C-7948-E1A2-62F6D647C8C4" name="OrdersItem_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 07:13:34 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C84947CB-50C1-80B6-443D-DE3B1F923071"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AE02E8C-11C5-53B7-3AE8-1ABF540C6E76" name="OrdersItem_Orders_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 07:26:32 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0BF5F03-B030-2B5B-9B53-A21DE3FABE5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57FB6549-37B8-E4D5-290A-8B1BE02C5342" name="OrdersItem_Product_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 07:27:05 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BAF32ED-B3A3-5E94-11D5-916EF3299BB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
