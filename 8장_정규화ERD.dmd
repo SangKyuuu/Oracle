@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="8장_정규화ERD" id="F9A11F8E-7C5C-3349-0DED-46B880483EFB" version="3.5">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 05:30:22 UTC</createdTime>
+<ownerDesignName>8장_정규화ERD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F9A11F8E-7C5C-3349-0DED-46B880483EFB</designId>
+</OSDM_Design>

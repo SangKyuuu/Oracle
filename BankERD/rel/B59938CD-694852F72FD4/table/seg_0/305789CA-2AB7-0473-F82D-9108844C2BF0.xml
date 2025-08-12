@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="305789CA-2AB7-0473-F82D-9108844C2BF0" name="bank_transaction">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:12:07 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="t_no" id="E04D4004-A783-D225-3EEE-6A5A05328590">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:12:43 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_a_no" id="E73CBE7C-843E-4EE8-4AA5-D272666DB93D">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:26:29 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA3E69AD-2451-A713-9E59-B3D38616CF6C" referredColumn="26B9D603-8864-7F3B-3FF1-9F83C71D81E8"/>
+</associations>
+</Column>
+<Column name="t_dist" id="E36E8E93-9DF1-9A14-4E7B-0FD61FAC64A3">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:12:43 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_amount" id="0FEE7CC4-BD0A-062E-4FF5-14C44C8562FF">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:12:43 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_datetime" id="B91C34D7-A0D3-D7DF-3759-A87ED1D6D317">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:12:43 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5ABF77BD-2A79-8CCE-25C2-BC8AD4855393" name="bank_transaction_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:12:43 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E04D4004-A783-D225-3EEE-6A5A05328590"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E03FF90-C5E9-0A6A-5648-B969070A7176" name="bank_transaction_bank_account_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:26:29 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E73CBE7C-843E-4EE8-4AA5-D272666DB93D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

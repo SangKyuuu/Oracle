@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F1B93D5-5453-E048-4503-2615EDEAFF6B" name="BO_OrderItem">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 06:24:54 UTC</createdTime>
+<ownerDesignName>8장_정규화ERD</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="orderNo" id="74ACB288-BBCB-D48B-EC4E-449E69FA793C">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 06:27:32 UTC</createdTime>
+<ownerDesignName>8장_정규화ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="964F67CE-6612-CF05-7C1E-4A320CFC1A39" referredColumn="6909A2E2-44E9-E432-2E47-5505842BCE33"/>
+</associations>
+</Column>
+<Column name="bookId" id="86164FB0-35BC-B49C-E884-FC0FF57CC40F">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 06:26:58 UTC</createdTime>
+<ownerDesignName>8장_정규화ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6A96DCF-B991-7381-8B5A-FBB3DD634152" referredColumn="338D9D1B-507E-585C-DE77-A4FDB7C90C43"/>
+</associations>
+</Column>
+<Column name="price" id="516ADC60-91F0-FB4F-AEE9-E5D32C3DCEDE">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 06:24:54 UTC</createdTime>
+<ownerDesignName>8장_정규화ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="count" id="95CB0A03-D8C4-642D-34AC-4610A097D138">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 06:25:43 UTC</createdTime>
+<ownerDesignName>8장_정규화ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1064CB4E-1256-4F20-2E7A-98E141FDF671" name="BO_Order3v1_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 06:24:54 UTC</createdTime>
+<ownerDesignName>8장_정규화ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74ACB288-BBCB-D48B-EC4E-449E69FA793C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3ADBDB0-2358-4ED7-686E-C8D9768E47DA" name="BO_OrderItem_BO_book3_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 06:26:58 UTC</createdTime>
+<ownerDesignName>8장_정규화ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86164FB0-35BC-B49C-E884-FC0FF57CC40F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8131BA6B-4215-2C36-78A4-510324B5A2DD" name="BO_OrderItem_BO_Order3_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 06:27:32 UTC</createdTime>
+<ownerDesignName>8장_정규화ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74ACB288-BBCB-D48B-EC4E-449E69FA793C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
